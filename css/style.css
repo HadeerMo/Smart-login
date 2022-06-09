@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+.screen,.card-style{
+    background-color: #24353f;
+}
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-style{
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.653),-3px -3px 10px rgba(0, 0, 0, 0.653);
+}
+h1{
+    color: #17a2b8;
+    margin-bottom: 1rem;
+}
+.w-65{
+    width: 65%;
+    text-align: center;
+    padding: 50px;
+}
+input{
+    background-color: #24353f;
+    border: 1px #f5f5f5b2 solid;
+    border-radius: 4px;
+    width: 100%;
+    margin: 7px 0px;
+    padding: 5px 10px;
+    outline: none;
+    transition: border-color .5s;
+}
+input::placeholder{
+    color: #f5f5f5b2;
+}
+input:focus{
+   border-color: #80bdff;
+}
+.signBtn:hover{
+color: white;
+}
+p{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+nav{
+    box-shadow:3px 3px 20px rgba(0, 0, 0, 0.449)
+}
+h2{
+    cursor: pointer;
+}
+.logOutBtn{
+    color: gray;
+    text-decoration: none;
+}
+.logOutBtn:hover{
+    color: white;
+}
+#alertError,#alertEmail,#alertSuccess,#incorrectError{
+    color: #ff0000ad;
+    margin-top: 10px;
+    display: none;
+}
+#alertSuccess{
+    color: green;
+}
+.valid-input{
+    border-color: green;
+}
+.valid-input:focus{
+    border-color: green;
+}
+.invalid-input{
+    border-color: #ff0000ad;
+}
+.invalid-input:focus{
+    border-color: #ff0000ad;
+}
